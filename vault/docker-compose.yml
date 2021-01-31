@@ -1,0 +1,17 @@
+version: "3"
+
+services:
+  vault1:
+    image: vault:1.6.2
+    ports:
+      - 8200:8200
+
+  vault2:
+    image: vault:1.6.2
+    ports:
+      - 7200:8200
+
+  vault3:
+    image: vault:1.6.2
+    ports:
+      - 6200:8200
